@@ -1,0 +1,22 @@
+<style>
+	img {
+		max-height: 400px;
+		max-width: 1024px;
+	}
+</style>
+
+<table>
+	<% for(var i=0; i < data.length; i++) { %>
+	<li>
+		<img src="<%-data[i]-%>" />
+	</li>
+	<% } %>
+</table>
+
+<table>
+	<% for(var i=0; i < orig.length; i++) { %>
+	<li>
+		<img src="<%-orig[i]-%>" />
+	</li>
+	<% } %>
+</table>
